@@ -1,0 +1,13 @@
+trigger: none
+
+pool:
+  vmImage: windows-latest
+
+steps:
+  - task: PowerPlatformToolInstaller@0
+    inputs:
+      DefaultVersion: true
+  - task: PowerPlatformWhoAmi@0
+    inputs:
+      authenticationType: 'PowerPlatformSPN'
+      PowerPlatformSPN: 'Deploy_PowerApps_LOGADM_QA'
