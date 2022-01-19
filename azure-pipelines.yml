@@ -10,4 +10,4 @@ steps:
   - task: PowerPlatformWhoAmi@0
     inputs:
       authenticationType: 'PowerPlatformSPN'
-      PowerPlatformSPN: 'Deploy_PowerApps_LOGADM_QA'
+      PowerPlatformSPN: 'Deploy_PowerApps_LOGADM_PRD'
